@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Master shifu угощает рыбкой </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="logo-container">
+                    <img src="img/logo.png" alt="ЛОГОТИП" class="logo">
+                    <a href="#"><p> ShiFood</p></a>
+                </div>
+                <nav class="menu" id="menu">
+                    <ul>
+                        <li><a href="#catalog">каталог</a></li>
+                        <li><a href="#delivery">доставка</a></li>
+                        <li><a href="#contacts">контакты</a></li>
+                        <li><a href="">корзина</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="burger" onclick="toggleMenu()">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+                <nav class="main-nav" id="main-nav">
+                    <ul>
+                        <li><a href="#catalog">каталог</a></li>
+                        <li><a href="#delivery">доставка</a></li>
+                        <li><a href="#contacts">контакты</a></li>
+                        <li><a href="">корзина</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container">
+                <p class="p"> Широкий ассортимент! Опт и розница.</p>
+                <p class="p2">У нас всегда можно найти свежие и качественные <br> морепродукты по выгодным ценам!</p>
+                <a href="#" class="btn"> Поплыли! </a>
+                <img src="img/ForBanner.png">
+            </div>
+        </section>
+
+        <section class="delivery">
+        <div class="container">
+        <div class="delivery-content">
+            <div class="delivery-text">
+                <h2>Доставка</h2>
+                <p>Мы предлагаем удобные условия доставки свежих морепродуктов прямо к вам домой или в офис.</p>
+                <ul>
+                    <li><p class="special">Бесплатная</p> доставка при заказе от 5000 тенге в пределах СКО.</li>
+                    <li><p class="special">Доставка</p> в другие регионы Казахстана осуществляется согласно договоренностям.</li>
+                    <li><p class="special">Наши курьеры</p> работают с 9:00 до 21:00 в рабочие дни, выходные - выходной.</li>
+                </ul>
+                <p>Для оформления заказа и уточнения деталей доставки звоните по телефону: <p class="specialT"> +7 (778) 515-45-74</p> 
+                    или пишите на email info@example.com.</p>
+            </div>
+        
+            <div class="delivery-image">
+                <img src="img/delivery.png" alt="Картинка"><br><br>
+                <a href="#" class="btn">Заказать</a>
+            </div>
+        </div>
+    </div>
+        </section>
+        
+        <div class="container">
+        <a name="catalog"></a>
+        <h1 style="text-align: center; color: white;">КАТАЛОГ</h1>
+            <section class="catalog">
+                
+                <div class="catalogMenu">
+                    <a href="" class="MenuBtn">Охлажденная рыба</a><br>
+                    <hr class="HRCat">
+                    <a href="" class="MenuBtn">Мучная продукция</a><br>
+                    <hr class="HRCat">
+                    <a href="" class="MenuBtn">Молочная продукция</a><br>
+                    <hr class="HRCat">
+                    <a href="" class="MenuBtn">Филе из рыбы</a><br>
+                    <hr class="HRCat">
+                    <a href="" class="MenuBtn">Крупы</a><br>
+                    <hr class="HRCat">
+                    <a href="" class="MenuBtn">Водоросли, растения и основы для супов</a><br>
+                    <hr class="HRCat">
+                    <a href="" class="MenuBtn">Бакалея</a><br>
+                    <hr class="HRCat">
+                    <a href="" class="MenuBtn">Копченая рыба</a>
+                </div>
+                <div class="catalogContainer">
+                        <div class="catalog-container">
+                    
+                    <div class="product">
+                       <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                       <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                       <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="catalog-container">
+                    
+                    <div class="product">
+                       <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                       <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="catalog-container">
+                    
+                    <div class="product">
+                       <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                       <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                    <div class="product">
+                       <img src="img/product.jpg" alt="ТОВАР">
+                        <h3> НАЗВАНИЕ </h3>
+                        <p> ОПИСАНИЕ </p>
+                        <span class="price"> ЦЕНА </span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                
+                </div>
+            </div></section>
+            <div class="container">
+                <div class="catalogDesc"></div>
+                <h3> Не нашли то, что искали? </h3>
+                <h3> Просим позвонить в нашу службу техподдержки и попросить их проверить склады </h3>
+                </div>
+            
+    </main>
+            </div>
+    <section class="map">
+        <div class="container">
+            <p>ВСЕГДА СВЕЖИЕ И КАЧЕСТВЕННЫЕ ТОВАРЫ</p>
+            <p>Предлагаем Вам качественную рыбную продукцию в широком ассортименте оптом и в розницу со складов в Нур-Султане 
+                (Астана) и Павлодаре. В продаже натуральная икра, свежемороженная семга, скумбрия, сельдь, минтай, хек, чавыча,
+                креветки, кальмары, устрицы, мидии и многое другое. У нас Вы покупаете БЕЗ ПЕРЕПЛАТЫ.</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.324318544963!2d76.9103153155025!3d43.242122979137775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d5f59d29d2088a0!2sSample%20Restaurant!5e0!3m2!1sen!2suk!4v1623479810131!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    
+    <a name="delivery"></a>
+    
+        
+    
+
+    <section class="about-us">
+        <div class="container">
+            <div class="aboutUs">
+            <p> Компания "ShiFood" была основана в 2009 году с целью предложить клиентам высококачественные
+                морепродукты и рыбу. Наша компания специализируется на розничной и оптовой торговле свежеморожеными 
+                морепродуктами и рыбой, такими как креветки, мидии, кальмары, осьминоги, гребешки и другие виды. Однако, 
+                наше настоящее превосходство проявляется в производстве холодного копчения рыбы.</p>
+            <p> Используя передовое оборудование и современные технологии, наш рыбный цех обеспечивает высокое качество 
+                копченых рыбных продуктов с балансированным ароматом и вкусом копчености. Наша система контроля качества 
+                гарантирует соблюдение всех стандартов и норм на каждом этапе производства, от приема сырья до отгрузки 
+                готовой продукции.</p>
+            <p> Компания "ShiFood" заботится о своих клиентах, предлагая только продукцию, которая соответствует 
+                высочайшим стандартам качества и безопасности питания. Вся наша продукция имеет соответствующие сертификаты 
+                качества и признана экспертами в области рыбной индустрии.</p>
+                <div class="aboutUsImg">
+                <img src="img/logo.png" alt="Картинка"><br><br>
+                
+                
+            </div>
+            </div>
+            
+        </div>
+    </section>
+</main>
+</body>
+
+<footer> <a name="contacts"></a>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>О нас</h3>
+            <p>Компания "ShiFood" занимается розничной и оптовой продажей свежемороженых морепродуктов и рыбы высокого качества. Мы гарантируем свежесть и надежность каждой поставки.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Документы</h3>
+            <ul>
+                <li><a href="#">Договор оферта</a></li>
+                <li><a href="#">Пользовательское соглашение</a></li>
+                <li><a href="#">Политика использования cookies</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li><a href="#">Вопросы администрации сайта</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Контакты</h3>
+            <ul>
+                <li>Телефон: +7 (778) 515 4574</li>
+                <li>Email: info@poseidonfishing.com</li>
+                <li>Адрес: г. Астана, ул. Морская, д. 52</li><br><br><br><br><br><br>
+                <li>Сделал: Нуралы Тамирлан Талгатулы</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Для продавцов</h3>
+            <ul>
+                <li><a href="#">Импорт объявлений</a></li>
+                <li><a href="#">Платные услуги</a></li>
+                <li><a href="#">Размещение баннеров</a></li>
+                <li><a href="#">Виджеты</a></li>
+                <li><a href="#">Сервис расчета</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Для покупателей</h3>
+            <ul>
+                <li><a href="#">Безопасные покупки</a></li>
+                <li><a href="#">Каталог товаров</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.main-nav ul');
+
+    burger.addEventListener('click', function() {
+        burger.classList.toggle('active');
+        nav.classList.toggle('active');
+    });
+});
+</script>
+
+
+<script>
+    function toggleMenu() {
+    const nav = document.getElementById('main-nav');
+    nav.classList.toggle('active');
+}
+</script>
+
+</html>
